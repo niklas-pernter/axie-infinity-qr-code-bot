@@ -1,7 +1,7 @@
 import uuid
 import os
 import discord
-from Storage import *
+from storage import *
 from bot_util import *
 from datetime import datetime
 

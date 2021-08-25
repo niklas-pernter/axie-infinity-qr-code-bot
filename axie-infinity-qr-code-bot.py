@@ -45,6 +45,7 @@ async def on_message(message):
                 message_embed.set_footer(text="Powered by Alpha Bots")
                 await message.author.send(file=discord.File(qr_code_path), embed=message_embed)
                 os.remove(qr_code_path)
+                await message.reply("Your Login-QR Code has been sent! *(Check Private messages)*")
             except:
                 await message.reply("Seems you have turned off private messages. Please activate them in the discord privacy settings!")
             return

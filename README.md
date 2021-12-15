@@ -10,5 +10,5 @@
 
 ## Installation 
 1. Update the storage.py file in repo with the Token of your bot and with the information of your scholars.
-2. Run the script by running in to correct path: `python3 ./bot.py`
+2. Run the script by running in to correct path: `python3 ./axie_infinity_qr_code_bot.py`
 

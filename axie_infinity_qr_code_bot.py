@@ -55,3 +55,4 @@ async def on_message(message):
 
 #Run the client (This runs first)
 client.run(discord_bot_token)
+diff --git a/axie-infinity-qr-code-bot.py b/axie-infinity-qr-code-bot.py

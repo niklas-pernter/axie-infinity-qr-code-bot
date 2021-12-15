@@ -1,6 +1,5 @@
 import requests
 import json
-import qrcode
 from web3.auto import w3
 from eth_account.messages import encode_defunct
 
